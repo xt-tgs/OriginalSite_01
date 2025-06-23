@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEY</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header-on">
+      <div class="header-inner">
+        <a href="/" class="header-logo">
+          <img src="img/logo.webp" width="336" alt="ロゴ" />
+        </a>
+        <div class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-list__item">
+              <a href="#greeting-link">ご挨拶</a>
+            </li>
+            <li class="header-nav-list__item">
+              <a href="#past-link">実績紹介</a>
+            </li>
+            <li class="header-nav-list__item">
+              <a href="#news-link">お知らせ</a>
+            </li>
+            <li class="header-nav-list__item">
+              <a href="#company-link">会社情報</a>
+            </li>
+            <li class="header-nav-list__item">
+              <a href="#contact-link">お問い合わせ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Main Visual -->
+      <section class="mainvisual">
+        <h1>Best Experience for You</h1>
+        <img src="img/main.webp" alt="メインビジュアル" />
+      </section>
+
+      <!-- Greeting -->
+      <section class="greeting">
+        <div class="container">
+          <h2 id="greeting-link" class="sec-title anchor-adjust">ご挨拶</h2>
+          <h3 class="greeting-title">
+            イベントを通して
+            <br />
+            日本に元気を
+          </h3>
+          <p class="greeting-text">
+            人が行き交う日常の中で、それぞれが違う目標に向かって進んでいる。
+            私たちは、そんなひとりひとりの背中をそっと押すようなイベントを企画・運営しています。
+            ただ集めるだけでなく、心が動く体験を届けること。
+            その場にいるすべての人の気持ちが交差し、前を向くきっかけとなるような
+            時間と空間を、私たちはイベントを通して創り出します。
+            そして、そこから日本全体に元気の連鎖が広がっていくことを願っています。
+          </p>
+          <img src="img/greeting.webp" alt="挨拶イメージ" />
+        </div>
+      </section>
+
+      <!-- Past -->
+      <section class="past">
+        <div class="container">
+          <h2 id="past-link" class="sec-title anchor-adjust">過去実績</h2>
+          <div class="past-block">
+            <div class="past-heading">
+              <div class="past-number-wrapper">
+                <span class="past-number">1</span>
+              </div>
+              <h3>イベント制作・運営</h3>
+              <p>
+                各種講演会、商業施設での集客イベント、花火大会などの制作・運営を一貫して手がけています。企画立案から当日の運営まで、豊富な実績と柔軟な対応力で、あらゆるニーズにお応えします。
+              </p>
+            </div>
+            <div class="past-images">
+              <img src="img/past01.webp" alt="過去実績01" />
+              <img src="img/past02.webp" alt="過去実績02" />
+              <img src="img/past03.webp" alt="過去実績03" />
+            </div>
+            <a href="past_01.html" class="btn-primary">
+              <p>view more</p>
+              <span class="arrow"></span>
+            </a>
+          </div>
+          <div class="past-block">
+            <div class="past-heading">
+              <div class="past-number-wrapper">
+                <span class="past-number">2</span>
+              </div>
+              <h3>地域密着・認知向上</h3>
+              <p>
+                各種イベントの企画・運営をはじめ、SNSやWeb広告を活用した集客・認知向上まで、目的やターゲットに合わせた最適なプランをご提案します。企画段階から実施後のフォローまで、トータルでサポートいたします。
+              </p>
+            </div>
+            <div class="past-images">
+              <img src="img/past04.webp" alt="過去実績04" />
+              <img src="img/past05.webp" alt="過去実績05" />
+              <img src="img/past06.webp" alt="過去実績06" />
+            </div>
+            <a href="past_01.html" class="btn-primary">
+              <p>view more</p>
+              <span class="arrow"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- News -->
+      <section class="news">
+        <h2 id="news-link" class="sec-title anchor-adjust">お知らせ</h2>
+        <div class="news-container">
+          <div class="news-content">
+            <a href="news.html" class="news-item">
+              <img src="img/news01.webp" alt="お知らせ01" />
+              <ul>
+                <li class="news-meta">
+                  <p class="news-category">EVENT</p>
+                  <p class="news-date">2025.06.01</p>
+                </li>
+                <li class="news-title">
+                  <h3>待望の新プロジェクトが始動中です！</h3>
+                </li>
+                <li class="news-text">
+                  <p>
+                    現在、スタッフ一同で進めている新たなプロジェクトが始動しました。詳細は今後段階的にお知らせしてまいりますが...
+                  </p>
+                </li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="news-content">
+            <a href="news.html" class="news-item">
+              <img src="img/news02.webp" alt="お知らせ02" />
+              <ul>
+                <li class="news-meta">
+                  <p class="news-category">NEWS</p>
+                  <p class="news-date">2025.05.07</p>
+                </li>
+                <li class="news-title">
+                  <h3>今年もGWイベントが開催されました！</h3>
+                </li>
+                <li class="news-text">
+                  <p>
+                    今年のゴールデンウィークも多くの皆さまにご来場いただき、無事にイベントを開催することができました。期間中にお...
+                  </p>
+                </li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="news-content">
+            <a href="news.html" class="news-item">
+              <img src="img/news03.webp" alt="お知らせ03" />
+              <ul>
+                <li class="news-meta">
+                  <p class="news-category">EVENT</p>
+                  <p class="news-date">2025.04.01</p>
+                </li>
+                <li class="news-title">
+                  <h3>ホームページを開設いたしました！</h3>
+                </li>
+                <li class="news-text">
+                  <p>
+                    弊社のホームページを新たに開設いたしました。イベント実績や最新情報などを、より分かりやすくお届けできる場と...
+                  </p>
+                </li>
+              </ul>
+            </a>
+          </div>
+
+          <a href="news.html" class="btn-primary">
+            <p>view more</p>
+            <span class="arrow"></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Company Info -->
+      <section class="company">
+        <h2 id="company-link" class="sec-title anchor-adjust">会社情報</h2>
+        <div class="company-inner">
+          <div class="company_profile">
+            <img src="img/ceo01.webp" class="company_ceo" alt="代表者写真" />
+            <div class="company-text">
+              <p>
+                「人が集まる場所には、心を動かす力がある」
+                <br />
+                私たちはそう信じて、企画から運営まで一貫したイベントづくりに取り組んできました。
+                <br />
+                世の中が変化する中でも、リアルな場での体験が人々の記憶に残ることに変わりはありません。
+                <br />
+                ひとつひとつの出会いと感動を大切に、今後も日本に活力を届けるイベントを創り続けてまいります。
+                <br />
+              </p>
+              <img src="img/ceo_name01.webp" class="company_ceo-name" alt="代表取締役" />
+            </div>
+          </div>
+          <div class="company-info">
+            <h3 class="company-lead">Best Experience for You</h3>
+            <dl class="info-block">
+              <dt>会社名</dt>
+              <dd>株式会社BEY</dd>
+            </dl>
+            <dl class="info-block">
+              <dt>創業</dt>
+              <dd>2022年8月24日</dd>
+            </dl>
+            <dl class="info-block">
+              <dt>所在地</dt>
+              <dd>〒150-0013 東京都渋谷区恵比寿〇丁目〇-〇〇</dd>
+            </dl>
+            <dl class="info-block">
+              <dt>代表</dt>
+              <dd>久川 雄一郎</dd>
+            </dl>
+            <dl class="info-block">
+              <dt>資本金</dt>
+              <dd>300万円</dd>
+            </dl>
+            <dl class="info-block">
+              <dt>電話番号</dt>
+              <dd>00-0000-0000</dd>
+            </dl>
+          </div>
+          <div class="company-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6484.5891087619275!2d139.71144304780344!3d35.645113840395446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b1478b71259%3A0x9c13a4023abcd309!2z44CSMTUwLTAwMTMg5p2x5Lqs6YO95riL6LC35Yy65oG15q-U5a-_!5e0!3m2!1sja!2sjp!4v1749623736429!5m2!1sja!2sjp"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact">
+        <h2 id="contact-link" class="sec-title anchor-adjust">お問い合わせ</h2>
+        <form action="#" method="post" class="contact-form">
+          <label>
+            お名前
+            <span class="required">必須</span>
+            <input
+              type="text"
+              name="name"
+              placeholder="ここにお名前を入力してください。"
+              required
+            />
+          </label>
+          <label>
+            会社名
+            <input type="text" name="company" placeholder="ここに貴社名を入力してください。" />
+          </label>
+          <label>
+            メールアドレス
+            <span class="required">必須</span>
+            <input
+              type="email"
+              name="email"
+              placeholder="ここにメールアドレスを入力してください。"
+              required
+            />
+          </label>
+          <label>
+            電話番号
+            <input type="tel" name="tel" placeholder="ここに電話番号を入力してください。" />
+          </label>
+          <label>
+            お問い合わせ内容
+            <span class="required">必須</span>
+            <textarea
+              name="message"
+              placeholder="ここにお問い合わせ内容を入力してください。"
+              rows="10"
+              required
+            ></textarea>
+          </label>
+          <a href="#" class="privacy-policy-link">プライバシーポリシーを確認する</a>
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="cbx" class="inp-cbx" />
+            <label for="cbx" class="cbx">
+              <span>
+                <svg viewBox="0 0 12 10" height="10px" width="12px">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                </svg>
+              </span>
+              <span>プライバシーポリシーに同意する</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">送信</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <a href="/" class="footer-logo">
+          <img src="img/logo.webp" width="336" alt="ロゴ" />
+        </a>
+        <p class="copyright">&copy; BEY Inc.</p>
+      </div>
+    </footer>
+
+    <script>
+      window.addEventListener('scroll', () => {
+        const header = document.querySelector('.header-on');
+        if (window.scrollY > 50) {
+          header.classList.add('shrink');
+        } else {
+          header.classList.remove('shrink');
+        }
+      });
+    </script>
+  </body>
+</html>
